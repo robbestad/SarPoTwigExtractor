@@ -27,7 +27,7 @@ From the console, go to the root of your project:
 execute _php Module.php XXX_ (where XXX is the name of your module, for instance Application)
 
 ######This is what it does:
-It travers your module/Application/view folder for .twig files and fetches
+It traverses your module/Application/view folder for .twig files and fetches
 all the strings within translate('xxx'). It also traverses all your language files
 in your module/Application/language folder and compiles a list of already translated 
 files. 
